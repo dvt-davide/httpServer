@@ -15,23 +15,6 @@
 
 namespace HTTP {
 
-	//typedef struct {
-	//	std::string key;
-	//	std::string value;
-	//} keyValue;
-
-	//typedef struct {
-	//	std::string key;
-	//	keyValue* value;
-	//} keyValues;
-
-	//typedef struct {
-	//	std::vector<keyValue> headerData;
-	//	std::vector <keyValues> body;
-	//} Request;
-
-	//void parseRequest(SOCKET client, Request *r); 
-
 	typedef struct  {
 		std::map<std::string, std::string> header;
 		std::string content;
